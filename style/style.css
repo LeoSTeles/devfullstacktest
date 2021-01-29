@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Noto Sans'
+}
+
+/* Página inicial */
+.bd{
+	background: #c62828;
+}
+
+.banner{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+.clear{
+	clear: both;
+}
+
+.pokeball {
+    width: 420px;
+    height: 420px;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.bola-central {
+    width: 400px;
+    height: 200px;
+}
+
+.metade-acima {
+    background-color: red;
+    border-top-left-radius: 400px;
+    border-top-right-radius: 400px;
+}
+
+.metade-abaixo {
+    background-color: white;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+}
+
+.circulo-central {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.circulo-central a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	background-color: white;
+	top: 28%;
+	left: 40%;
+    margin: auto;
+    border-radius: 50%;
+    border-width: 5px;
+}
+
+.circulo-central a:hover{
+	position: absolute;
+	background: grey;
+	top: 22.8%;
+	left: 22.8%;
+	color: grey;
+	height: 70px;
+	width: 70px;
+}
+
+.circulo-central-fora {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-width: 15px;
+}
+
+.circulo-central-dentro {
+    width: 70px;
+    height: 70px;
+}
+
+.divisao {
+    height: 65px;
+    width: 400px;
+    background-color: black;
+    position: absolute;
+}
+
+/* Fim da página inicial */
+
+/* Pokédex */
+
+
+.navbar{
+	font-family: 'Noto Sans';
+}
+
+.navbar img{
+	height: 40px;
+
+}
+
+.corpo-pokedex{
+	position: relative;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.bd-pokedex{
+	background: #e3f2fd;
+}
+
+.exterior-moldura{
+	margin-top: 10%;
+	left: 7.5%;
+	position: relative;
+	width: 85%;
+	background:#b1b1b1;
+	list-style: none;
+	padding: 5%;
+	color: #b1b1b1;
+	display: grid;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.botao-imagem{
+	position: relative;
+	left: 10%;
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	background-color: #950101;
+}
+
+.button-ext-moldura{
+	position: relative;
+	left: 55%;
+	top: -60%;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background-color: #de4443;
+	
+}
+
+.button-ext-moldura-2{
+	position: relative;
+	left: 45%;
+	top: -156%;
+	height: 8px;
+	width: 8px;
+	border-radius: 50%;
+	background-color: #de4443;
+	
+}
+
+.botao-legenda-1{
+	position: relative;
+	height: 10px;
+	width: 40px;
+	top: -12%;
+	left: 38%;
+	background-color: #20a007;
+	border-radius: 50px;
+	box-shadow: -1.3px 1.3px #244204;
+}
+
+.botao-legenda-2{
+	position: relative;
+	height: 10px;
+	width: 40px;
+	top: -14.3%;
+	left: 52%;
+	background-color: #f9772d;
+	border-radius: 50px;
+	box-shadow: -1.3px 1.3px #6e2904;
+}
+
+
+.moldura{
+	left: 5%;
+	position: relative;
+	width: 90%;
+	margin-bottom: 3%;
+	background: white;
+	list-style: none;
+	padding: 5px;
+	color: black;
+	display: grid;
+	border: 1px solid black;
+	border-radius: 15px;
+	text-align: center;
+}
+
+
+.titulo-pokemon a{
+	margin-top: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: black;
+}
+.legenda-pokemon{
+	color: #e1f5fe;
+}
+
+.imagem-pokemon{
+	height: 150px;
+	margin: 0 auto;
+}
+
+#pokedex{
+	padding-top: 6%;
+	padding-inline-start: 0;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	grid-gap: 30px;
+}
+
+.pokedex{
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	text-align: center;
+	height: 450px;
+	width: 350px;
+	background-color: #bf0c0c;
+	box-shadow: -15px 3px #600606;
+}
+
+.direcional-pokedex img{
+	float: right;
+	position: relative;
+	left: 420%;
+	height: 80px;
+}
+
+.pokedex h2{
+	position: relative;
+	top: -10%;
+	text-transform: uppercase;
+	color: black;
+}
+
+.nome-pokemon{
+	color: white !important;
+}
+
+.pokedex p{
+	position: relative;
+	top: -10%;
+	text-transform: uppercase;
+	color: white;
+}
+.moldura-id{
+	height: 40px;
+	width: 85px;
+	background-color: white;
+	position: relative;
+	left: 50%;
+	top: 48%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border-radius: 8px;
+	color: black;
+}
+
+.externo-id{
+	height: 55px;
+	width: 120px;
+	background-color: #00746a;
+	position: relative;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	border-radius: 8px;
+}
+
+.botao-pokedex{
+	position: relative;
+	left: 15%;
+	top:  -10%;
+	transform: translate(-50%,-50%);
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	background-color: #154ded;
+	box-shadow: -2px 0px #022a70;
+}
+/* Fim da Pokédex */
